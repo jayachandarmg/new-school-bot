@@ -22,12 +22,12 @@ const fees = {
   "12": "₹60,000/year"
 };
 
-const last year sslc mark = { 
-    1st rank - 493
+const last year sslc mark = 
+    "1st rank - 493
     2nd rank - 489
-    3rd rank  -479 };
+    3rd rank  -479 " :
 
-const last year hsc mark = [ 
+ const last year hsc mark = [ 
       1st rank - 562
       2nd rank - 559
       3rd rank - 532   ];
@@ -104,7 +104,11 @@ function getBotReply(text) {
         reply = "Available 11th standard groups:\n- " + groups11.join("\n- ");
     }
 
+    // sslc mark
+    else if (text.includes("sslc mark")  | | text.includes("10th mark") ) { 
+         reply = " last year sslc mark : ${last year sslc mark}`;
     return reply;
 }
+
 
 
