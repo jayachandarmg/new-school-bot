@@ -25,21 +25,18 @@ const fees = {
 const last year sslc mark = { 
     1st rank - 493
     2nd rank - 489
-    3rd rank  -479 
-} 
+    3rd rank  -479 };
 
-const last year hsc mark = { 
+const last year hsc mark = [ 
       1st rank - 562
       2nd rank - 559
-      3rd rank - 532   
-};
+      3rd rank - 532   ];
 
-const sports = { 
+const sports = [ 
      1. Throw ball
      2. Volley ball
      3. Floor ball 
-     4. Hockey 
-};
+     4. Hockey ];
 
 const admissionDocs = [
   "Birth certificate",
@@ -109,4 +106,5 @@ function getBotReply(text) {
 
     return reply;
 }
+
 
