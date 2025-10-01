@@ -4,7 +4,7 @@ const sendBtn = document.getElementById('send-btn');
 
 const schoolName = "New Bharath Matriculation Higher Secondary School";
 const schoolTimings = "8:00 AM - 6:00 PM Monday to Friday";
-const schoolContact = "Phone: 1234567890, Email: info@newbharathschool.com";
+const schoolContact = "Phone: 8925055554, Email: info@newbharathschool.com";  
 
 const fees = {
   "kg": "₹15,000/year",
@@ -20,6 +20,25 @@ const fees = {
   "10": "₹50,000/year",
   "11": "₹55,000/year",
   "12": "₹60,000/year"
+};
+
+const last year sslc mark = { 
+    1st rank - 493
+    2nd rank - 489
+    3rd rank  -479 
+} 
+
+const last year hsc mark = { 
+      1st rank - 562
+      2nd rank - 559
+      3rd rank - 532   
+};
+
+const sports = { 
+     1. Throw ball
+     2. Volley ball
+     3. Floor ball 
+     4. Hockey 
 };
 
 const admissionDocs = [
@@ -90,3 +109,4 @@ function getBotReply(text) {
 
     return reply;
 }
+
